@@ -1,0 +1,244 @@
+$bgsquare: #FFFFD0;
+
+.hole {   
+    //visibility: hidden;
+    position: absolute;   
+    top: -300px; /* Sets hole starting Y position */  
+    left: -345px; /* Sets hole starting X position */  
+    width: 800px; /* Width of image containing hole */  
+    height: 800px; /* Height of image containing hole */
+    background: transparent url("http://biostall.com/wp-content/uploads/2014/04/home-panel-contact-hole.png") no-repeat;
+} 
+.background {   
+    overflow: hidden;  
+    height: 600px;   
+    width: 600px;   
+    position: relative;
+    background: lightgreen;
+    float: left;
+} 
+.edgeTB {   
+    position: absolute;   
+    top: 0px; 
+    left: 0px; 
+    width: 625px; 
+    height: 225px; 
+    background-color: black;
+}  
+.edgeLR {   
+    position: absolute;   
+    top: 0px; 
+    left: 0px; 
+    width: 200px; 
+    height: 625px; 
+    background-color: black;
+}  
+body {
+  font-size: 14px;
+  background-color: #995400;  // #161103;
+}
+h1 {
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+  color: #6f5411;
+}
+button {
+  margin: 0;
+}
+h3 {
+  margin: 0px;
+  margin-bottom: 10px;
+  color: #43330a;
+}
+hr {
+  width: 80%;
+  margin-bottom: 20px;
+  border-color: #eed490;
+}
+.normalText {
+  font-weight: normal;
+}
+.width100 {
+  width: 100%;
+  clear: both;
+}
+.alignLeft {
+  float: left;
+}
+.alignRight {
+  float: right;
+}
+.hr {
+  width: 100%;
+}
+#wrapper {
+  margin: 10px;
+}
+#wrapper:focus {
+  outline: none;
+}
+#rightSide {
+  overflow: hidden;
+}
+#innerWrap {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  width: 450px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 20px;
+  border: 5px double #9b7617;
+  background: #fcf6e9;
+}
+.square {
+  background-color: $bgsquare;
+  border: 1px solid #DDD;
+  width: 25px;
+  height: 25px;
+  box-sizing: border-box;
+  float: left;
+}
+.borderTop {
+  border-top: 2px solid black;
+}
+.borderRight {
+  border-right: 2px solid black;
+}
+.borderBottom {
+  border-bottom: 2px solid black;
+}
+.borderLeft {
+  border-left: 2px solid black;
+}
+.clear {
+  clear: left;
+}
+#bottom {
+  height: 10px;
+  width: 10px;
+}
+.label {
+  position: absolute;
+  color: #AAA;
+  font-size: 1.5em;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  text-align: center;
+}
+#study {
+  top: 45px;
+  left: 50px;
+}
+#hall {
+  top: 82px;
+  left: 278px;
+}
+#lounge {
+  top: 70px;
+  left: 470px;
+}
+#library {
+  top: 207px;
+  left: 40px;
+}
+#billiard {
+  top: 342px;
+  left: 28px;
+}
+#cellar {
+  top: 282px;
+  left: 248px;
+}
+#dining {
+  top: 282px;
+  left: 468px;
+}
+#conservatory {
+  top: 525px;
+  left: 18px;
+}
+#ballroom {
+  top: 495px;
+  left: 242px;
+}
+#kitchen {
+  top: 520px;
+  left: 482px;
+}
+#sgtBlack {
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: black;
+  height: 21px;
+  width: 21px;
+}
+#missScarlett {
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: red;
+  height: 22px;
+  width: 22px;
+}
+#profPlum {
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: purple;
+  height: 22px;
+  width: 22px;
+}
+#mrsPeacock {
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: blue;
+  height: 22px;
+  width: 22px;
+}
+#mrGreen {
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: green;
+  height: 22px;
+  width: 22px;
+}
+#colMustard {
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: #FFE600;
+  height: 22px;
+  width: 22px;
+}
+#mrsWhite {
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: white;
+  height: 22px;
+  width: 22px;
+}
+#drBrown {
+  border-radius: 50%;
+  background-color: sienna;
+  height: 22px;
+  width: 22px;
+}
+abbr {
+  text-decoration: none;
+}
+.health {
+  color: red;
+  font-size: 26px;
+  height: 16px;
+  width: 16x;
+  line-height: 20px;
+  text-align: center;
+}
+.weapon {
+  border: 1px solid black;
+  background-color: #FF8C00;  // darkorange
+  color: #FFF8DC;  // cornsilk
+  height: 16px;
+  width: 16x;
+  margin: 2px;
+  font-family: Verdana;
+  font-size: 15px;
+  text-align: center;
+  line-height: 15px;
+}
